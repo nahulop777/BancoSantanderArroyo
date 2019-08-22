@@ -1,4 +1,6 @@
-package com.company;
+package com.company.cuentas;
+
+import com.company.Cliente;
 
 public class Cuenta {
 
@@ -28,5 +30,9 @@ public class Cuenta {
 
     public Double getSaldo() {
         return saldo;
+    }
+
+    protected void setSaldo(Double saldo) {
+        this.saldo = saldo;
     }
 }

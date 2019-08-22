@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.cuentas.Cuenta;
+
 public class Main {
 
     public static void main(String[] args) {
